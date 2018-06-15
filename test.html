@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+
+<header>
+    <h1>AJAX TEST</h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/home/vdp/ajax_test/test.js"></script>
+    <!-- <script>
+    function oclick()  {
+        var xhttp=new XMLHttpRequest();
+         xhttp.onreadystatechange= function(){console.log(this.readystate);
+             if( this.readystate==4 && this.status ==200)
+                {
+                    document.getElementById('demo').innerHTML=this.responseText;
+                }
+
+         };console.log("executing till here");
+         xhttp.open("GET","https://www.googleapis.com/youtube/v3/videos?id=3mDP9h-fIug&key=AIzaSyCGaFN_bXNodVmuB_fGzKJbQ4nYpGDhGHA&part=snippet,contentDetails,statistics",true);
+         xhttp.send();
+    }
+    </script> -->
+</header>
+<body><p id="demo"></p>
+       <p id="demo1"></p>
+        <p id="demo2"></p>
+       <p id="demo3"></p>
+    <button class="btn btn-default textbuttn" onclick="oneclick()">youtube Data</button>
+
+</body>
+</html>
